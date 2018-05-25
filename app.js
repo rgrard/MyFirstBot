@@ -2,6 +2,10 @@
 var restify = require('restify'); 
 var builder = require('botbuilder'); 
 
+//Environmental variable no to publish values to GIT
+//var appId = process.env.MY_APP_ID,
+//var appPassword = process.env.MY_APP_PASSWORD;
+
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.PORT || 3000, function() 
@@ -11,10 +15,10 @@ server.listen(process.env.PORT || 3000, function()
 
 // Create chat bot
 var connector = new builder.ChatConnector
-({ appId: 'YourAppId', appPassword: 'YourAppPassword' }); 
+({ appId: '554e6f88-e090-4cb2-a020-41fbc1535a33', appPassword: 'vuegGTE102([fesMGDV75[?' }); 
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
-
+bot.dialog('/',function(session){session.send("Bonjour, je suis consultant3000!");})
 // Create bot dialogs
 bot.dialog('/', function (session) {
     session.send("Hello World");

@@ -1,0 +1,15 @@
+{
+    "name": "http://localhost:3000/api/messages",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "554e6f88-e090-4cb2-a020-41fbc1535a33",
+            "id": "c7f4eb40-604f-11e8-b0b5-2fbc53662dd1",
+            "type": "endpoint",
+            "appPassword": "vuegGTE102([fesMGDV75[?",
+            "endpoint": "http://localhost:3000/api/messages",
+            "name": "http://localhost:3000/api/messages"
+        }
+    ]
+}
