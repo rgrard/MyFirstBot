@@ -1,0 +1,27 @@
+{
+  "name": "myfirstbot",
+  "version": "1.0.0",
+  "description": "Build a bot in Node.js on Microsoft Bot Framework to avoid consultants having writers' block",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgrard/MyFirstBot.git"
+  },
+  "keywords": [
+    "bot",
+    "slack"
+  ],
+  "author": "Nope...",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgrard/MyFirstBot/issues"
+  },
+  "homepage": "https://github.com/rgrard/MyFirstBot#readme",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "restify": "^7.2.0"
+  }
+}
